@@ -2,11 +2,17 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es2015",
-    "declaration": true,
-    "outDir": "./dist",
-    "rootDir": "./src"
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "strict": false,
+    "lib": [
+      "es2020"
+    ]
   },
-  "include": [
-    "src/**/*"
-  ]
+  "exclude": ["node_modules"],
+  "include": ["src/**/*.ts"]
 }

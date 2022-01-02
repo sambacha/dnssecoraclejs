@@ -6,3 +6,4 @@
  
 // // Create categories, they will autoregister themselves, one category without parent (root) and a child category.
 // export const logger = new Category("dnssecoraclejs");
+export {}
